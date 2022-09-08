@@ -7,4 +7,4 @@
 {{/if}}
 {{raw "topic-list-header-column" order='default' name='topic.title' bulkSelectEnabled=bulkSelectEnabled showBulkToggle=toggleInTitle canBulkSelect=canBulkSelect}}
 {{raw "topic-list-header-column" sortable='true' order='posts' forceName=(theme-i18n 'replies')}}
-{{raw "topic-list-header-column" sortable='true' number='true' order='activity' forceName=(theme-i18n 'activities') }}
+{{raw "topic-list-header-column" sortable=sortable number='true' order='views' name='views' ariaLabel=(i18n "sr_views")}}
